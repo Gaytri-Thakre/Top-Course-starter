@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import {filterData,apiUrl} from "./data";
-import Navbar from "./components/Navbar"
-import Filter from "./components/Filter"
-import Cards from "./components/Cards"
+import Navbar from "./components/Navbar";
+
+import Filter from './components/Filter'
+import Cards from './components/Cards'
 import {toast} from "react-toastify"
+
 
 const App = () => {
   const [courses,setCourses]=useState(null)
