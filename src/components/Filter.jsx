@@ -4,7 +4,7 @@ const Filter = (props) => {
   return (
     <div className="flex place-content-around">
             {props.filterData.map(data=>(
-                <button>{data.title}</button>
+                <button key={data.id}>{data.title}</button>
             ))}
             
     </div>
